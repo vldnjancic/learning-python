@@ -19,11 +19,11 @@ for i in chosen_word:
     hidden_word += "_"
 print(hidden_word)
 
-# for letter in chosen_word:
-#     if letter == guess:
-#         print("correct")
-#     else:
-#         print("Wrong answer!")
+for letter in chosen_word:
+    if letter == guess:
+        print("correct")
+    else:
+        print("Wrong answer!")
 
-if guess in chosen_word:
-    print("Correct")
+# if guess in chosen_word:
+#     print("Correct")
